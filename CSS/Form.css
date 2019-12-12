@@ -1,0 +1,30 @@
+@charset "urf-8";
+
+form{
+    width: 500px;
+    margin: 50px;
+}
+input, textarea {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 12pt;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+input#botao{
+    background-color: rgb(238, 232, 232);
+}
+legend {
+	color: #11111a;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+}
+fieldset {
+	border-color: #150552;
+	margin: 20px;
+}
+a#form{
+    font-size: 15pt;
+    background-color: rgb(180, 180, 180);
+    padding: 5px;
+}

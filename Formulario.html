@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/Form.css">
+</head>
+<body>
+    <div>
+    <a id="form" href="index.html">Home</a>
+    <h1>Formulario</h1>
+     <form method="GET" action="formulario.php">
+        <fieldset id="nome"><legend>Identificação</legend>
+            <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome"/></p>
+            <p>E-mail: <input type="email" name="tMail" id="cMail" maxlength="20" placeholder="E-mail"></p>
+        </fieldset>
+        <fieldset id="msg"><legend>Mensagem</legend>
+            <p><label for="cMsg"></label></p>
+            <textarea name="tMsg" id="cMsg" cols="50" rows="10" placeholder="Digite uma Mensagem"></textarea>
+        </legend>
+        </fieldset>
+        <input id="botao" type="submit" value="Pronto">
+     </form>
+    </div>
+</body>
+</html>

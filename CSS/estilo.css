@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+h1{
+    text-align: justify;
+    text-indent: 100px;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+p#cont{
+    text-align: justify;
+    text-indent: 0px;
+}
+img{
+    width: 200px;
+    padding-left: 20px;
+}
+div{
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: -5px;
+}
+a#form{
+    color: black;
+    padding: 10px;
+    
+    
+}
+a{
+    color: #606060;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}

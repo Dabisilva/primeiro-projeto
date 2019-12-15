@@ -18,5 +18,6 @@
        $n = $_GET["tNome"];
        echo "<p>Olá ".$n.", muito obrigado pela mensagem. Se você viu isto quer dizer que funcionou :)</p>";
     ?>
+    <a id="form" href="Fomulario.html">Voltar</a>
 </body>
 </html>

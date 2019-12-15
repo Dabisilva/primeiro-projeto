@@ -21,6 +21,6 @@
        echo "<p>Olá ".$n.", muito obrigado pela mensagem. Se você viu isto quer dizer que funcionou :)
        <br>Desculpe por ser algo tão simples mas estou estudando para fazer coisas ainda melhores</p>";
     ?>
-    <a id="form" href="Fomulario.html">Voltar</a>
+    <a id="form" href="Formulario.html">Voltar</a>
 </body>
 </html>

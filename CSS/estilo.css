@@ -8,6 +8,11 @@ p{
     text-align: justify;
     text-indent: 50px;
 }
+p#index{
+    text-align: justify;
+    text-indent: 0px;
+    font-size: 13pt;
+}
 p#cont{
     text-align: justify;
     text-indent: 0px;
